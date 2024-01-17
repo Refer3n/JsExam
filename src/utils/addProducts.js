@@ -5,7 +5,4 @@ import addHtml from "./addHtml";
 const content = itemT(notebook.notebook);
 const productsContainerLink = document.querySelector(".productsContainer");
 
-console.log(notebook);
-console.log(content);
-
 addHtml(content, productsContainerLink);
